@@ -3,7 +3,9 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
 import Image from "next/image";
 import deved from "../public/dev-ed-wave.png";
-
+import design from '../public/design.png';
+import code from '../public/code.png';
+import consulting from '../public/consulting.png';
 export default function Home() {
   return (
     <div>
@@ -46,6 +48,13 @@ export default function Home() {
     <h3 className="text-3xl py-1">My skills package</h3>
     <p className="text-md py-2 leading-8 text-gray-800">he code snippet you provided seems to be an Axios POST request in a JavaScript environment, likely a React Native app, <span className="text-teal-500">attempting</span>  to register a user by sending data to a local server. Without more context, it's a bit difficult to <span className="text-teal-500">pinpoint</span> what might be wrong, but I'll try to point out a few potential issues</p>
     <p className="text-md py-2 leading-8 text-gray-800">he code snippet you provided  in a JavaScript environment, likely a React Native app, <span className="text-teal-500">attempting</span>  to more context, it's a bit difficult to <span className="text-teal-500">pinpoint</span> what might be wrong, but I'll try to point out a few potential issues</p>
+  </div>
+  <div>
+    <div>
+      <Image src={design} width={100} height={100}/>
+      <h3>Beautiful Designs</h3>
+      <p>Creating elegant designs suited for your needs</p>
+    </div>
   </div>
 </section>
 
