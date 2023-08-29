@@ -6,6 +6,13 @@ import deved from "../public/dev-ed-wave.png";
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
+import web1 from '../public/web1.png';
+import web2 from '../public/web2.png';
+import web3 from '../public/web3.png';
+import web4 from '../public/web4.png';
+import web5 from '../public/web5.png';
+import web6 from '../public/web6.png';
+
 export default function Home() {
   return (
     <div>
@@ -51,7 +58,10 @@ export default function Home() {
   </div>
   <div>
     <div className="text-center shadow-lg p-10 rounded-xl my-10">
+      <div className="flex justify-center">
       <Image src={design} width={100} height={100}/>
+      </div>
+     
       <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
       <p>Creating elegant designs suited for your needs</p>
       <h4 className="py-4 text-teal-600">Design tools I use</h4>
@@ -60,7 +70,12 @@ export default function Home() {
       <p className="text-gray-800 py-1">Figma</p>
     </div>
     <div className="text-center shadow-lg p-10 rounded-xl my-10">
-      <Image src={code} width={100} height={100}/>
+
+<div className="flex justify-center">
+<Image src={code} width={100} height={100}/>
+
+</div>
+      
       <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
       <p>Creating elegant designs suited for your needs</p>
       <h4 className="py-4 text-teal-600">Design tools I use</h4>
@@ -69,7 +84,9 @@ export default function Home() {
       <p className="text-gray-800 py-1">Figma</p>
     </div>
     <div className="text-center shadow-lg p-10 rounded-xl my-10">
-      <Image src={consulting} width={100} height={100}/>
+      <div className="flex justify-center">  
+       <Image src={consulting} width={100} height={100}/>
+      </div>
       <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
       <p>Creating elegant designs suited for your needs</p>
       <h4 className="py-4 text-teal-600">Design tools I use</h4>
@@ -79,7 +96,18 @@ export default function Home() {
     </div>
   </div>
 </section>
-
+<section>
+  <div>
+    <h3 className="text-3xl py-1">Portfolio</h3>
+    <p className="text-md py-2 leading-8 text-gray-800">he code snippet you provided seems to be an Axios POST request in a JavaScript environment, likely a React Native app, <span className="text-teal-500">attempting</span>  to register a user by sending data to a local server. Without more context, it's a bit difficult to <span className="text-teal-500">pinpoint</span> what might be wrong, but I'll try to point out a few potential issues</p>
+    <p className="text-md py-2 leading-8 text-gray-800">he code snippet you provided  in a JavaScript environment, likely a React Native app, <span className="text-teal-500">attempting</span>  to more context, it's a bit difficult to <span className="text-teal-500">pinpoint</span> what might be wrong, but I'll try to point out a few potential issues</p>
+  </div>
+  <div>
+    <div><Image src={web1} /></div>
+    <div><Image src={web2} /></div>
+    <div><Image src={web3} /></div>
+  </div>
+</section>
       </main>
     </div>
   );
