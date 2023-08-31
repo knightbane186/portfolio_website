@@ -1,6 +1,7 @@
+"use client";
 import Head from "next/head";
 import {BsFillMoonStarsFill} from 'react-icons/bs';
-import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
+import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 import Image from "next/image";
 import deved from "../public/dev-ed-wave.png";
 import design from '../public/design.png';
@@ -12,13 +13,8 @@ import web3 from '../public/web3.png';
 import web4 from '../public/web4.png';
 import web5 from '../public/web5.png';
 import web6 from '../public/web6.png';
-import { useClient } from 'next/dist/client/next';
 import { useState } from "react";
-
-
-
 export default function Home() {
-  useClient();
   const [darkMode, setDarkMode] = useState(false);
   return (
     <div className={darkMode ? "dark": ""}>
