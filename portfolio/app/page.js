@@ -8,10 +8,10 @@ import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
 import weather from '../public/weather.png';
-import web2 from '../public/web2.png';
-import web3 from '../public/web3.png';
-import web4 from '../public/web4.png';
-import web5 from '../public/web5.png';
+import hacker_news from '../public/hacker_news.png';
+import messenger from '../public/messenger.png';
+import movies from '../public/movies.png';
+import voiceAI from '../public/voiceAI.png';
 import web6 from '../public/web6.png';
 import { useState } from "react";
 export default function Home() {
@@ -31,7 +31,9 @@ export default function Home() {
     <li>
       <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-xl"/>
     </li>
-    <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 " href="#">Resume</a></li>
+    <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+      Resume
+    </a></li>
   </ul>
 </nav>
 <div className="text-center p-10">
@@ -103,7 +105,7 @@ I am excited about the opportunity to discuss how my technical expertise and dyn
       <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-400">Team Work handlers</h3>
       <p className="dark:text-gray-100"> This ensures that our team consistently delivers high-quality work, meeting objectives with precision and efficiency. My proactive approach and adaptability make me an invaluable asset in any collaborative setting.</p>
       <h4 className="py-4 text-teal-600">Tools I use</h4>
-      <p className="text-gray-800 py-1  ">Confluence, Jira, Asana</p>
+      <p className="text-gray-800 py-1 dark:text-gray-100 ">Confluence, Jira, Asana</p>
       <p className="text-gray-800 py-1 dark:text-gray-100"> Trello, Slack</p>
       <p className="text-gray-800 py-1 dark:text-gray-100">Github, Gogs, SourceForge</p>
     </div>
@@ -113,21 +115,81 @@ I am excited about the opportunity to discuss how my technical expertise and dyn
   <div>
     <h3 className="text-3xl py-1 dark:text-gray-400">Portfolio</h3>
     <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-100"> Welcome! Explore my portfolio showcasing a diverse range of projects. From a Chat App with ChatGPT and DALL-E integration to an Adventure Network app, a Climate Assistance tool, and more. Dive in and discover my innovative creations.</p>
+    <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-100">Click on the portfolios to visit the github repos</p>
    
   </div>
   <div className="flex flex-col gap-10 py-10 lg:flex-row lg: flex-wrap ">
     
-    <div className="basis-1/3 flex-1"><Image src={weather} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" /></div>
+    {/* <div className="basis-1/3 flex-1"><Image src={weather} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" /></div> */}
+
+    <div className="basis-1/3 flex-1">
+  <a href="https://github.com/knightbane186/Klim8">
+    <Image src={weather} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+  </a>
+</div>
+
+<div className="basis-1/3 flex-1">
+  <a href="https://github.com/knightbane186/Klim8">
+    <Image src={hacker_news} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+  </a>
+</div>
+
+
+<div className="basis-1/3 flex-1">
+  <a href="https://github.com/knightbane186/Klim8">
+    <Image src={messenger} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+  </a>
+</div>
+
+
+<div className="basis-1/3 flex-1">
+  <a href="https://github.com/knightbane186/Klim8">
+    <Image src={movies} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+  </a>
+</div>
+
+
+<div className="basis-1/3 flex-1">
+  <a href="https://github.com/knightbane186/Klim8">
+    <Image src={voiceAI} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+  </a>
+</div>
+
+
+<div className="basis-1/3 flex-1">
+  <a href="https://github.com/knightbane186/Klim8">
+    <Image src={web6} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+  </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* 
    
-    <div className="basis-1/3 flex-1"><Image src={web2}className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" /></div>
+    <div className="basis-1/3 flex-1"><Image src={hacker_news}className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" /></div>
    
-    <div className="basis-1/3 flex-1"><Image src={web3} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
+    <div className="basis-1/3 flex-1"><Image src={messenger} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
 
-    <div className="basis-1/3 flex-1"><Image src={web4} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
+    <div className="basis-1/3 flex-1"><Image src={movies} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
 
-    <div className="basis-1/3 flex-1"><Image src={web5} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
+    <div className="basis-1/3 flex-1"><Image src={voiceAI} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
 
-    <div className="basis-1/3 flex-1"><Image src={web6} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
+    <div className="basis-1/3 flex-1"><Image src={web6} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div> */}
   </div>
 </section>
       </main>
