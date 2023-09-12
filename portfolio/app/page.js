@@ -12,7 +12,7 @@ import hacker_news from '../public/hacker_news.png';
 import messenger from '../public/messenger.png';
 import movies from '../public/movies.png';
 import voiceAI from '../public/voiceAI.png';
-import web6 from '../public/web6.png';
+import adventure from '../public/adventure.png';
 import { useState } from "react";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -129,36 +129,36 @@ I am excited about the opportunity to discuss how my technical expertise and dyn
 </div>
 
 <div className="basis-1/3 flex-1">
-  <a href="https://github.com/knightbane186/Klim8">
+  <a href="https://github.com/knightbane186/Hacker-news-SwiftUI-">
     <Image src={hacker_news} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
   </a>
 </div>
 
 
 <div className="basis-1/3 flex-1">
-  <a href="https://github.com/knightbane186/Klim8">
+  <a href="https://github.com/knightbane186/MessengerApp">
     <Image src={messenger} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
   </a>
 </div>
 
 
 <div className="basis-1/3 flex-1">
-  <a href="https://github.com/knightbane186/Klim8">
+  <a href="https://github.com/knightbane186/Movies_browserApp">
     <Image src={movies} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
   </a>
 </div>
 
 
 <div className="basis-1/3 flex-1">
-  <a href="https://github.com/knightbane186/Klim8">
+  <a href="https://github.com/knightbane186/Voice_assistant">
     <Image src={voiceAI} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
   </a>
 </div>
 
 
 <div className="basis-1/3 flex-1">
-  <a href="https://github.com/knightbane186/Klim8">
-    <Image src={web6} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+  <a href="https://github.com/knightbane186/travel_Adventure">
+    <Image src={adventure} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
   </a>
 </div>
 
