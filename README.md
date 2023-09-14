@@ -2,6 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+<<<<<<< HEAD
+=======
+# Demo Video
+
+[![Demo Video](http://img.youtube.com/vi/MieTegAk5-A/0.jpg)](http://www.youtube.com/watch?v=MieTegAk5-A)
+
+
+
+
+Getting Started
+>>>>>>> 73d7df14ff1909df8a1a37046b469bc8416984ab
 First, run the development server:
 
 ```bash
