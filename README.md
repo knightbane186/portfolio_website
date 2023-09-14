@@ -4,7 +4,8 @@
 This is a Next.js project bootstrapped with create-next-app.
 
 #Demo
-[![Demo Video](http://img.youtube.com/vi/MieTegAk5-A/0.jpg)](http://www.youtube.com/watch?v=MieTegAk5-A)
+
+(http://www.youtube.com/watch?v=MieTegAk5-A)
 
 Getting Started
 
