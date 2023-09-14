@@ -2,7 +2,10 @@
 
 This is a Next.js project bootstrapped with create-next-app. Tech Stack: React, Nextjs, Tailwind Key Features: Dark mode toggle, auto mapping and size adjustments.
 
-# Demo Video
+# Demo
+
+[![Demo Video](http://img.youtube.com/vi/MieTegAk5-A.jpg)]
+
 
 
 
