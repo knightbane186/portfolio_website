@@ -1,7 +1,8 @@
 # portfolio_website
 
 This is a Next.js project bootstrapped with create-next-app. Tech Stack: React, Nextjs, Tailwind Key Features: Dark mode toggle, auto mapping and size adjustments.
-
+# Website:  
+https://main.d7ua8bhvgho38.amplifyapp.com/
 # Demo
 
 [![Demo Video](http://img.youtube.com/vi/MieTegAk5-A/0.jpg)](http://www.youtube.com/watch?v=MieTegAk5-A)
